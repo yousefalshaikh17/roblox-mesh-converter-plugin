@@ -32,7 +32,12 @@ MeshConverterPlugin (Script)
 3. Click the appropriate **conversion button** in the plugin toolbar:
    - Convert `MeshPart` to `SpecialMesh`
    - Convert `SpecialMesh` to `MeshPart`
+
+![image](https://github.com/user-attachments/assets/53be08d2-0454-4c1b-9b19-d076501133fa)
+
 4. Done! Your mesh objects will be converted and changes will be recorded in the undo history.
+
+
 
 
 ## Notes
