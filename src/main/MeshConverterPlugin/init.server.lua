@@ -10,8 +10,8 @@ local MeshConverter = require(script.MeshConverter)
 local toolbar = plugin:CreateToolbar("Fate Forge Mesh Converter")
 
 -- Create conversion buttons
-local specialMeshButton: PluginToolbarButton = toolbar:CreateButton("Convert to SpecialMesh", "Convert MeshPart to SpecialMesh", "rbxassetid://84252334879354")
-local meshPartButton: PluginToolbarButton = toolbar:CreateButton("Convert to MeshPart", "Convert SpecialMesh to MeshPart", "rbxassetid://125809798223918")
+local specialMeshButton: PluginToolbarButton = toolbar:CreateButton("Convert MeshPart to SpecialMesh", "Convert MeshPart to SpecialMesh", "rbxassetid://84252334879354")
+local meshPartButton: PluginToolbarButton = toolbar:CreateButton("Convert SpecialMesh to MeshPart", "Convert SpecialMesh to MeshPart", "rbxassetid://125809798223918")
 
 -- Buttons are not needed when the viewport is hidden.
 specialMeshButton.ClickableWhenViewportHidden = false
