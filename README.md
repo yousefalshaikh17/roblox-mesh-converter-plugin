@@ -40,6 +40,9 @@ MeshConverterPlugin (Script)
 - Conversion maintains relevant physical size and properties such as `MeshId`, `TextureId`, etc. However, it does not maintain SpecialMesh `Offset` or `VertexColor`.
 - Unlikely, but some manual tweaking may be needed depending on mesh asset differences.
 
+## Tests
+
+Unit tests for the MeshConverter module are completed and testing is successful. However, I have not been able to implement it for Rojo yet. I hope to properly add unit testing in the future.
 
 ## Requirements
 
