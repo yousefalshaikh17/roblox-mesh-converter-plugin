@@ -1,0 +1,14 @@
+{
+  "name": "roblox-mesh-converter-plugin",
+  "tree": {
+    "$className": "DataModel",
+
+    "PluginDebugService": {
+      "$className": "PluginDebugService",
+      "user_MeshConverterPlugin.rbxmx": {
+        "$className": "Plugin",
+        "$path": "src/main/"
+      }
+    }
+  }
+}
